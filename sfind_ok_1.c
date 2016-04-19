@@ -1,5 +1,6 @@
 /**
- * sfind_test_1.c: 可以支持选项组合输出 -n -t -s -u -g;
+ * sfind_test_1.c: 可支持选项:name、type、size、uid、gid;
+ * 长短选项均支持即就是“-name”"-n"、"--name"；
  * 问题：使用-d -n时，不能过滤掉当前目录'.'
  **/
 #include <stdio.h>
